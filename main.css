@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn {
+    width: 18vmin;
+    height: 8vmin;
+    border-radius: 9px;
+    border: 1.3px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 0 1rem;
+}
+
+#red {
+    background-color: red;
+}
+#red:active {
+    background-color: rgb(233, 156, 156);
+}
+
+#green {
+    background-color: green;
+}
+#green:active {
+    background-color: rgb(155, 226, 155);
+}
+
+#blue {
+    background-color: blue;
+}
+#blue:active {
+    background-color: rgb(142, 142, 220);
+}
+#random:active {
+    background-color: rgb(188, 172, 172);
+}
